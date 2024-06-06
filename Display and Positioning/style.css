@@ -1,12 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: o;
-    padding: 0;
-}
-
 body {
-    margin: 0 auto;
     background-color: #FFF;
+    margin: 0 auto;
 }
 
 header {
@@ -29,10 +23,20 @@ li {
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
+    display: inline-block;
+    width: 80px;
 }
 
 li:hover {
     color: #DBE9EE;
+}
+
+h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -72,6 +76,7 @@ p {
 footer {
     background-color: #DBE9EE;
     text-align: center;
+    height: 100px;
 }
 
 .welcome {
@@ -81,21 +86,20 @@ footer {
     text-align: center;
     width: 100%;
     position: relative;
-    top: 200px;
+    top: 50px;
 }
 
 .question {
     text-align: center;
     position: relative;
     top: 40px;
-    border: 15px solid #DBE9EE;
-    background-color: white;
+    clear: left;
 }
-
 
 .answer {
     border: 1px solid #466995;
     margin: 20px;
+    display: inline-block;
 }
 
 .answer:hover {
